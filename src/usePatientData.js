@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 
 // ESP32 Configuration - REPLACE WITH YOUR ESP32 IP ADDRESS
-const ESP32_IP = '192.168.1.131'; // Update this to your ESP32's IP address
+const ESP32_IP = '10.184.79.5'; // Update this to your ESP32's IP address
 
 export function usePatientData(selectedPatient, demoMode) {
   const [data, setData] = useState(null);
